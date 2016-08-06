@@ -1,0 +1,10 @@
+
+public interface Vehicle {
+	
+	public static final String WARNING = "Keep out of reach from children.";
+	
+	protected String status="On";
+	void turnOn();
+	public void turnOff();
+
+}

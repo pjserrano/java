@@ -1,0 +1,18 @@
+class A {
+	private A() {
+		System.out.println("Class A constructor");
+	}
+
+}
+
+ public class B extends A {
+	 public B() {
+		 System.out.println("Class B constructor");
+	 }
+	 public static void main (String[] args) {
+		 new B();
+	 }
+		
+}
+
+

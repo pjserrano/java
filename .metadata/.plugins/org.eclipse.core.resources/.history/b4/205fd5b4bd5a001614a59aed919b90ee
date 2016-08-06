@@ -1,0 +1,19 @@
+package Exam;
+
+public class TestLoop {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int x = 10;
+		
+		do {
+			System.out.println("do ... while " + x--);
+		} while (false);
+		while(false) 
+		{
+			System.out.println("while ...");
+		}
+
+	}
+}

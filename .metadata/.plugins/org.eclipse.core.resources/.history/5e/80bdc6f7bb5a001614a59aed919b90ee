@@ -1,0 +1,27 @@
+package Exam;
+
+public class Demo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int Direction = 3;
+		String str;
+		switch(Direction) {
+		
+		case 1: str = "South";
+		break;
+		case 2: str = "North";
+		break;
+		case 3: str = "East";
+		break;
+		case 4: str = "West";
+		break;
+		default: str = "Invalid direction";
+		break;
+		}
+		System.out.println(str);
+
+	}
+
+}

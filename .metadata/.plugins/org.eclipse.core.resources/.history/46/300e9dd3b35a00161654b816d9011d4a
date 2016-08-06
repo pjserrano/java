@@ -1,0 +1,21 @@
+
+ public class Test {
+	 static int p = 4;
+	 int q = 9;
+	 public Test() {
+		 System.out.println(this.p);
+		 show();
+	 }
+	 public static void show() {
+		 System.out.print(p);
+		 System.out.print(q);
+	 }
+	 
+	 public static void main(String... args) {
+		 
+		 new B();
+	 }
+		
+}
+
+

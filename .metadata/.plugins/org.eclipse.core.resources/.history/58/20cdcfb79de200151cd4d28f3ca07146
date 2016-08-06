@@ -1,0 +1,56 @@
+
+		
+		import java.awt.*;
+		import java.awt.event.*;
+		import java.awt.image.ImageObserver;
+		
+		import javax.swing.*;
+		
+		import java.util.*;
+		
+public class Examples extends JFrame {
+	
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+
+		
+
+			
+			Flowlayout experimentlayout = new FlowLayout();
+			
+			public Examples(String name) {
+				super(name);
+			}
+			
+		public void addComponentsToPane(final Container pane) {
+			
+			//create a panel
+			final JPanel compsToExperiment = new JPanel();
+			compsToExperiment.setlayout(experimentLayout);
+			//this value indicates that each row of components should be justified to the trailing edge of the container's orientation,
+			//for example, to the right in left-to-right orientations.
+			experimentLayout.setAlignment(FlowLayout.TRAILING);
+			JPanel controls = new Jpanel();
+			controls.setLayout(new FlowLayout());
+			
+			//Add buttons to the experiment layout
+			compsToExperiment.add(new JButton("Button 1"));
+			compsToExperiment.add(new JButton("Button 2"));
+			compsToExperiment.add(new JButton("Button 3"));
+			compsToExperiment.add(new JButton("Long-Named Button 4"));
+			compsToExperiment.add(new JButton("5"));
+			//Left to right component orientation is selected by default
+			//Items run left to right and lines flow top to bottom.
+			compsToExperiment.setComponentOrientation(
+					ComponentOrientation.LEFT_TO_RIGHT); ;
+			
+		}
+		}
+		
+
+	}
+
+}

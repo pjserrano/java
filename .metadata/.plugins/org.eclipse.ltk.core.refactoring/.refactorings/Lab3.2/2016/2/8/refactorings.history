@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Lab32&apos; to &apos;Contacts&apos;&#x0A;- Original project: &apos;Lab3.2&apos;&#x0A;- Original element: &apos;Lab32&apos;&#x0A;- Renamed element: &apos;Contacts&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Lab32&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{Lab32.java[Lab32" matchStrategy="1" name="Contacts" qualified="false" references="true" similarDeclarations="false" stamp="1455940138614" textual="false" version="1.0"/>
+</session>

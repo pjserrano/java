@@ -1,0 +1,16 @@
+
+ interface Vehicle 
+ {
+	 String WARNING = "Please do not cross the peed limit";
+	 //Line 1
+	 public String engineState = "On"; //Line 2
+	 void startEngine();
+	 public void stopEngine();
+}
+ public class Bike implements Vehicle
+ {
+	 public void startEngine() {}
+	 public void stopEngine() {}
+	 void accelerate() {}
+	 WARNING = "Maximum Speed limit is 100KM/HR"; // Line 4
+ }

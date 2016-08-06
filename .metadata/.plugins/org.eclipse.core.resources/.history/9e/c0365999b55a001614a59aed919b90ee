@@ -1,0 +1,8 @@
+
+interface Vehicle //Line 1
+ {
+	 final String WARNING = "Please do not cross the speed limit";
+	 //line 3
+	 public void startEngine(); // Line 4
+	 public static class TwoWheeler {} // Line 5
+ }

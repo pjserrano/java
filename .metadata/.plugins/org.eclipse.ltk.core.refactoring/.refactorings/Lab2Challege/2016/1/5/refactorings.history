@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Convert local variable &apos;Lab2Challenge.main().input&apos; in &apos;Lab2Challenge.main()&apos; to field&#x0A;- Original project: &apos;Lab2Challege&apos;&#x0A;- Original element: &apos;Lab2Challenge.main().input&apos;&#x0A;- Field name: &apos;input&apos;&#x0A;- Initialize field in method&#x0A;- Declared visibility: &apos;private&apos;&#x0A;- Declare field &apos;static&apos;" description="Convert local variable &apos;input&apos; to field" final="false" flags="2" id="org.eclipse.jdt.ui.promote.temp" initialize="1" input="/src&lt;{Lab2Challenge.java" name="input" selection="149 30" stamp="1454133729715" static="true" version="1.0" visibility="2"/>
+</session>
